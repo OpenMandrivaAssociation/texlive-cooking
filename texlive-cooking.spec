@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/cooking
+# catalog-date 2006-12-09 15:50:57 +0100
+# catalog-license gpl
+# catalog-version 0.9b
 Name:		texlive-cooking
 Version:	0.9b
 Release:	1
@@ -45,6 +51,7 @@ well-respected German cookery book.
 #- source
 %doc %{_texmfdistdir}/source/latex/cooking/cooking.dtx
 %doc %{_texmfdistdir}/source/latex/cooking/cooking.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ well-respected German cookery book.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
