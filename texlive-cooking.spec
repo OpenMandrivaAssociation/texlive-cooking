@@ -6,7 +6,7 @@
 # catalog-version 0.9b
 Name:		texlive-cooking
 Version:	0.9b
-Release:	9
+Release:	10
 Summary:	Typeset recipes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cooking
