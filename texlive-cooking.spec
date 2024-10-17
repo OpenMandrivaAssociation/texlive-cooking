@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Typeset recipes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cooking
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/cooking
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cooking.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cooking.doc.r%{version}.tar.xz
